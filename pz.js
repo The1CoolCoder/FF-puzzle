@@ -16,7 +16,7 @@ window.onload = function() {
         for (let c = 0; c < columns; c++){
 
             let tile = this.document.createElement("img");
-            tile.src = "CAT/blank.png"
+            tile.src = "FOX/blank.png"
             tile.addEventListener("dragstart", dragStart); //click on an image to drag
             tile.addEventListener("dragover", dragOver); // you can drag over the image
             tile.addEventListener("dragenter", dragEnter); // you can drag over the image to another image
